@@ -1,5 +1,4 @@
-# Kaggle
+# Kaggle Practice
 
-This is the kaggle competition practice
+This is the kaggle practice
 
-1.Titanic
