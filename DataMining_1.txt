@@ -1,0 +1,293 @@
+Random Forest
+
+Decision Tree
+
+KNN
+
+Support Vector Machines
+
+Logistic Regression
+
+Linear SVC
+
+Perceptron
+
+Stochastic Gradient Decent
+
+Naive Bayes
+
+Unsupervised Learning
+
+Supervised Learning
+
+Training data
+
+Validation data
+
+test data
+
+Cluster Analysis
+
+Association Analysis(basket analysis)
+-support
+-confidence
+-lift
+
+Bagging and boosting
+
+--------
+알고리즘(Algorithm)
+
+특정 데이터 마이닝을 위한 기법. 주로 사용되는 기법은 의사결정 트리, 회귀분석, 군집 분석 등이 있다.
+
+ 
+
+속성(attribute)
+
+보통 X 로 표기되며, 특성, 예측변수, 입력변수, 독립변수, 또는 데이터베이스 관점에서 필드(field)라고도 한다.
+
+ 
+
+사례(case)
+
+고객, 거래 등의 측정치를 갖는 분석의 단위로서 관찰치, 레코드, 패턴, 또는 행(row)이라고도 한다(각 행은 레코드를, 각 열은 변수를 의미함).
+
+ 
+
+신뢰도(confidence)
+
+l  “A와 B가 구매된다면 C 또한 구매될 것이다.”라는 연관성규칙에서 사용되며, 이때 신뢰도는 A와 B가 구매된다는 조건하에서 C가 구매될 조건부 확률을 말한다.
+
+l  통계학의 신뢰구간(confidence interval)과 같이 좀더 넓은 의미로 쓰인다. 다른 표본과는 반대되는 표본을 선택함으로 인해 발생하는 추정치의 오차 정도를 말한다.
+
+ 
+
+종속변수(dependent variable)
+
+보통 Y로 표기되며, 지도학습으로 예측되는변수이다. 또한 반응변수, 출력변수, 목표변수, 또는 성과변수라고도 한다.
+
+ 
+
+추정(estimation)
+
+연속형 출력변수의 가치를 예측하는 것을 말하며, 예측(prediction)이라고도 한다.
+
+ 
+
+특성(feature)
+
+보통 X로 표기되며, 예측변수, 입력변수, 독립변수, 또는 데이터베이스 관점에서 필드라고도 한다.
+
+ 
+
+예비용 표본(holdout sample)
+
+모형을 적합 시키는 데 사용되지 않고 모형의 성과를 평가하는 데 사용되는 데이터 표본이다. 이 책에서는 예비용 표본이라는 용어 대신에 평가용 집합(validation set)이라는 용어를 사용하거나 검증용 집합(test set)이라는 용어를 사용한다.
+
+ 
+
+입력변수(input variable)
+
+보통 X로 표기되며, 특성, 예측변수, 독립변수, 또는 데이터베이스 관점에서 필드라고도 한다.
+
+ 
+
+모형(model)
+
+데이터 집합에 적용되어 파라미터(parameter)를 결정하는 알고리즘을 말한다(많은 알고리즘은 사용자가 조정할 수 있는 파라미터를 가짐).
+
+ 
+
+관찰치(observation)
+
+고객, 거래 등의 측정치를 갖는 분석의 단위로서 사례, 레코드, 패턴, 또는 행(row)이라고도 한다(각 행은 레코드를, 각 열은 변수를 의미함).
+
+ 
+
+성과변수(outcome variable)
+
+보통 Y로 표기되며, 지도학습으로 예측되는 변수이다. 또한 종속변수, 반응변수, 출력변수, 또는 목표변수라고도 한다.
+
+ 
+
+출력변수(output variable)
+
+보통 Y로 표기되며, 지도학습으로 예측되는 변수이다. 또한 종속변수, 반응변수, 목표변수, 또는 성과변수라고도 한다.
+
+ 
+
+P(A|B)
+
+사건 B가 발생한다는 조건하에서 사건 A가 발생할 조건부 확률을 의미한다.
+
+ 
+
+패턴(pattern)
+
+하나의 관찰치에 대한 측정치의 집합을 말한다. 예를 들어 한 사람의 키, 몸무게 및 나이를 묶어서 하나의 패턴으로 정의한다.
+
+ 
+
+예측(prediction)
+
+연속형 출력변수의 가치를 예측하는 것을 말하며, 추정(estimation)이라고도 한다.
+
+ 
+
+예측변수(predictor)
+
+보통 X로 표기되며, 특성, 입력변수, 독립변수, 또는 데이터베이스 관점에서 필드(field)라고도 한다.
+
+ 
+
+레코드(record)
+
+고객, 거래 등의 측정치를 갖는 분석의 단위로서 사례, 관찰치, 패턴, 또는 행(row)이라고도 한다(각 행은 레코드를, 각 열은 변수를 의미함).
+
+ 
+
+반응변수(response variable)
+
+보통 Y로 표기되며, 지도학습으로 예측되는 변수이다. 또한 종속변수, 출력변수, 목표변수, 또는 성과변수라고도 한다.
+
+ 
+
+점수(score)
+
+예측 값 또는 예측집단을 나타낸다. 새로운 데이터에 점수를 매기는 것은 학습용 데이터를 가지고 개발된 모형을 이용하여 새로운 데이터에 출력 값을 예측하는 것을 의미한다.
+
+ 
+
+성공집단(success class)
+
+이진 집단변수에서 중요한 집단을 말한다. 예를 들어 구매/비구매의 성과변수에서 구매자 집단이 성공집단에 해당한다.
+
+ 
+
+지도학습(supervised learning)
+
+주요 종속변수가 알려져 있는 레코드에 알고리즘(로지스틱 회귀분석, 회귀나무 등)을 적용하는 과정을 말한다. 알고리즘은 출력변수가 알려져 있지 않은 신규 레코드를 가지고 출력 변수 값을 예측하는 방법을 학습한다.
+
+ 
+
+검증용 데이터(test data)(또는 검증용 집합)
+
+최종 선택모형이 새로운 데이터에 대하여 얼마나 좋은 성과를 갖는지를 평가하기 위해서 모형구축 및 모형 선택과정이 끝난 후에만 사용되는 데이터를 말한다.
+
+ 
+
+학습용 데이터(training data)(또는 학습용 집합)
+
+모형을 적합화시키기 위해 사용되는 데이터를 말한다.
+
+ 
+
+자율학습(unsupervised learning)
+
+주요 출력 값을 예측하기보다는 데이터 자체의 특성에 대한 학습을 시도, 분석한다(예를 들어 군집들의 소속여부 등).
+
+ 
+
+평가용 데이터(validation data)(또는 평가용 집합)
+
+모형이 얼마나 잘 적합화 되었는지 평가하고, 일부 모형들을 조정하며, 구축된 모형들 중에서 가장 좋은 모형을 선택하기 위한 목적으로 사용되는 데이터를 말한다.
+
+ 
+
+변수(variable)
+
+입력변수(X)와 출력변수(Y)를 모두 포함하는 레코드의 측정치를 말한다.
+
+ 
+
+ 
+
+[참고자료]
+
+데이터 마이닝 (저자 : GALIT SHMUELI / 번역 : 신택수, 홍태호)
+[출처] 데이터 마이닝의 용어정리|작성자 SungWook Kang
+
+
+
+
+------------------------------------------------------------------------
+
+데이터마이닝 알고리즘의 종류 
+
+분류 (Classification)
+
+
+회귀분석 (Regression / Value estimation)
+Classification은 어떤 일이 일어날지 '여부'를 예측하는 것이고, 회귀분석은 어떤 일이 '얼마나 많이' 일어나는지를 예측
+
+유사도 매칭 (Similarity matching)
+
+군집화 (Clustering)
+
+연관 규칙 / 동시발생 그룹화 (Co-occurence Grouping)
+Association rule mining, Market-basket analysis라고도 알려져 있다.
+개체와 관련된 거래에 기반해 개체간의 연관성을 찾아낸다.
+군집화는 객체의 속성에 기반해 객체 간의 유사도를 찾아내지만, 동시 발생 그룹화는 객체들이 같이 거래되는지의 여부에 따라 객체의 유사도를 살펴 본다.
+
+
+프로파일링 (Profiling)
+Behavior description이라고도 부르며 개인, 그룹, 전체의 전형적인 행위의 특징을 찾아낸다.
+일반적으로 행위는 전체 사용자, 특정 소규모 그룹, 또는 개인별로 설명할 수 있다.
+
+연결 예측 (Link Prediction)
+데이터 항목 간에 연결되어 있어야 하는지를 판단하고, 연결의 강도를 추정해 데이터 간의 연결을 예측
+친구 추천
+
+데이터 축소 (Data Reduction)
+
+인과 모델링 (Casual Modeling)
+어떤 사건이나 행위가 실제로 다른 행위에 영향을 미치는지 파악할 수 있게 해준다.
+관찰 데이터에서 인과관계를 이끌어 낼 수 있는 정교한 방법 뿐만 아니라 임의의 통제된 실험을 수행하기 위해 데이터에 상당한 투자가 필요하다.
+
+-------------------------------------------
+수치형 예측변수
+수치형 반응
+
+선형 회귀 (Linear Regression)
+신경망 (Neural Nets)
+k-근접이웃 (k-Nearest Neighbors)
+
+범주형 반응
+
+로지스틱 회귀분석 (Logistic Regression)
+신경망 (Neural Nets)
+판별분석 (Discriminant Analysis)
+k-근접이웃 (k-Nearest Neighbors)
+
+무반응
+
+주성분 분석 (Principal Components Analysis)
+군집 분석 (Cluster Analysis)
+
+
+범주형 예측변수
+수치형 반응
+
+선형 회귀 (Linear Regression)
+신경망 (Neural nets)
+회귀나무 (k-Nearest neighbors)
+
+범주형 반응
+
+로지스틱 회귀분석 (Logistic Regression)
+신경망 (Neural nets)
+분류 나무 (Classification trees)
+나이브 베이즈 (Naive Bayes)
+
+무반응
+
+연관 규칙 (Association Rules)
+
+-------------------------------------------
+데이터 전처리, 정제
+- overfit
+- outlier
+- missing data
+- Data Standardization
+
+
